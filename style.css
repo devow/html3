@@ -34,9 +34,33 @@ nav {
     border-right: solid 1px #cdcdcd;
 }
 figure {
+    justify-content: center;
     text-align: center;
 }
+article img, article video, article iframe {
+    width: 480px;
+}
 
-article img {
-    max-width: 480px;
+.poe_classes {
+    margin: auto;
+    font-size: 150%;
+    color: oldlace;
+    background-color: #161616;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.poe_classes img {
+    display: flex;
+    width: 75px;
+    height: 71.59px;
+}
+.poe_classes th {
+    background-color: darkred;
+    color: oldlace;
+}
+.poe_classes th, .poe_classes tr, .poe_classes td {
+    padding: 0 5px;
+}
+.poe_classes tr:hover {
+    background-color: darkred;
 }
